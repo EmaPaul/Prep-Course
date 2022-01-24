@@ -1,0 +1,22 @@
+
+Bucle for
+
+for: se utiliza para repetir una o mas instrucciones un determinado numero de veces,
+que tiene una estructura la cual es la siguiente:
+
+for(expresion1; expresion logica; expresion2){
+	//intrucciones
+}
+
+el funcionamiento del bucle for es , que mientras se cumpla la condicion 
+de la expresion logica, entonces se ejecutan el conjunto de intrucciones 
+dentro del ciclo.
+
+Operadores Logicos
+
+&& --> significa "y" o tambien es conocido como "and" ,que funciona si las variables son "true".
+
+||-->significa "o" tambien conocido como "or", que funciona si una de las variables es "false" o "true",
+o tambien si ambas variables son "true".
+
+!--->significa negacion o tambien conocida como "not" que funciona si una variable es "true",entonces al negarla esta regresa como "false", y si es "false" la regresara como "true".
