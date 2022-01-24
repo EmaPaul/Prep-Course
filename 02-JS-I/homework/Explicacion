@@ -1,0 +1,17 @@
+
+variales: una variable es la forma de almacenar algun valor para poder utilizarlo en el codigo de js.
+
+strings: los string son bloques de texto que por lo regular siempre estan en comillas, siendo comillas simples
+o comillas dobles.
+
+Funciones
+argumentos: un argumento es una forma de intercambiar informacion, que se utiliza para datos de entrada y tambien de salida.
+
+return:Es una intruccion donde temina la ejecucion de un funcion devolviendole el control ala funcion dada.
+
+Declaraciones
+
+if : Esta declaracion evalua un codigo y dependiendo de la condicion que se le de ,determinara si es verdadero o falso.
+
+Valores Booleanos
+los valores booleanos significan 2 opciones true y false, en otros lenguajes se les conoce como 0 y 1, otros como activar o desactivar, dependiendo que tipo de codigo y condicion se utilise, saldra un valor true o false.
