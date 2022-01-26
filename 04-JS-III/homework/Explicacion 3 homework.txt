@@ -1,0 +1,14 @@
+Arrays:
+los arrays o arreglos en español, son una estructura que se utiliza
+generalmente para almacenar datos de manera continua, que funcionan
+definiendo una variable seguido de un signo de igual y dos corchetes 
+donde colocaremos los datos que vamos a almacenar.
+
+Los Arrays tienen la siguiente estructura:
+
+var saludo = ["Hola", "Como", "Estas!"];
+
+como se ve primero se declara la variable nombrandola, en este caso se le puso
+"saludo",despues ponemos un signo igual y colocamos los corchetes, y dentro de
+ellos colocamos los datos que vamos a almacenar en este caso son datos de tipo 
+string.
