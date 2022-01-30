@@ -1,0 +1,57 @@
+Objetos:
+Los objetos son identidades independientes con propiedades y tipos,
+donde una propiedad tiene un nombre y un valor, y tambien el nombre puede ser
+una cadena de caracteres, incluso una cadena vacia.
+
+-------------------------------------------------------------------------------
+
+Propiedades:
+las propiedades son asociaciones entre un nombre y un valor. El valor de una 
+propiedad puede ser su funcion, en cuyo caso la propiedad es conocida como
+un metodo. 
+
+-------------------------------------------------------------------------------
+
+Métodos:
+los metodos son funciones las cuales son propiedades del objeto,
+el cual exiten 2 tipos de metodos :
+
+-Metodo de instacia.-El cual son las tareas integradas realizadas por la instacia de un objeto.
+
+-Metodos estaticos.- Que son tareas que pueden ser llamadas directamente del constructor de un
+objeto.
+
+--------------------------------------------------------------------------------
+
+Bucle `for…in`
+
+La instruccion 'for in' itera todas la propiedades enumerables de un objeto que esta codificado
+por cadenas.
+
+la sintaxis es esta:
+
+for (variable in objeto)
+  instrucción
+
+Variable: Asigna un nombre de propiedad diferente a la variable en cada iteracion.
+
+Objeto: Cuyas propiedades enumerables que no son simbolos se iteran.
+
+---------------------------------------------------------------------------------
+
+Notación de puntos vs notación de corchetes
+
+Notación de puntos: esto es un secuencia alfanumerica de caracteres, incluyendo
+tambien el guion bajo "_" y el signo del dolar "$" que no puede empezar por un
+numero.
+
+Ejemplo: (Bien)
+objeto.$1 es valido.
+
+Ejemplo: (Mal)
+objeto.1 no es valido.
+
+Notacion de corchetes: La cadena no tiene que ser un identificador valido.
+
+Ejemplo:
+"1foo", "!bar!", " "(un espacio);
