@@ -1,6 +1,6 @@
 
 Explicacion:
-------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
 prototype:
 para entender mejor el concepto de "prototype", se debe entender que la creacion de funciones
 es muy costosa, pero en la capacidad de memoria, y cada ves que creamos un nuevo objeto de clase
@@ -65,4 +65,4 @@ impuesto { precio: 45.65, Iva: 0.18 }// aqui nos muestra los datos que hemos ing
 > P1.calculo()// y aqui invocamos a ala funcion
 53.867
 
-------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
