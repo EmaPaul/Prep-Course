@@ -1,0 +1,68 @@
+
+Explicacion:
+------------------------------------------------------------------------------------------------------------------------
+prototype:
+para entender mejor el concepto de "prototype", se debe entender que la creacion de funciones
+es muy costosa, pero en la capacidad de memoria, y cada ves que creamos un nuevo objeto de clase
+con metodos, estamos recreando esos metodos en la memoria.
+
+Ya que javascript es a menudo descrito como un lenguaje basado en prototipos, para proporcionar
+mecanismos de herencia, es decir Un objeto prototipo del objeto puede tener a su vez otro objeto
+prototipo, el cual hereda métodos y propiedades. y asi sucesivamente.
+
+entonces para ser mas exactos, los metodos y propiedades son definidos en la propiedad prototype
+que reside en la funcion constructora del objeto, y no en la instacia del mismo objeto.
+
+Ejemplo:
+
+function ejm(comida,pais){
+    this.comida=comida;
+    this.pais=pais;
+}
+
+ejm.prototype.proveniencia=function(){
+    return "El "+this.comida+" viene de "+this.pais;
+}
+
+// como sale reproducido el ejemplo:
+
+var datos=new ejm("ceviche","PERU"); // primero instaciamos
+
+// y al poner la variable datos nos muestra las propiedades de la funcion
+datos
+ejm { comida: 'ceviche', pais: 'PERU' }
+
+// y ahora como invocamos el prototipo
+
+datos.proveniencia() // colocamos esto de esta manera
+'El ceviche viene de PERU' // y nos regresa el mensaje que especificamos
+
+
+
+_Constructors_ (de Clases):
+
+Un constructor es un elemento de una clase cuyo identificador coincide con el de la 
+clase correspondiente y tiene como objetivo obligar y controlar como se inicaliza una instancia en
+una determinada clase.
+
+Ejemplo:
+
+class impuesto{ // primero ponemos el nombre de una clase 
+    constructor(precio,Iva){// y ponemos las propiedades del constructor
+        this.precio=precio; // en este caso precio
+        this.Iva=Iva; // y poniendo el Iva
+    }
+
+    calculo(){// y aqui colocando una funcion devolvemos el calculo
+        return this.precio + (this.precio * this.Iva);
+    }
+}
+
+// aqui instaciamos a traves del constructor
+var P1 =new impuesto(45.65,0.18);
+
+impuesto { precio: 45.65, Iva: 0.18 }// aqui nos muestra los datos que hemos ingresado a traves del constructor
+> P1.calculo()// y aqui invocamos a ala funcion
+53.867
+
+------------------------------------------------------------------------------------------------------------------------
