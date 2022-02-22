@@ -1,0 +1,19 @@
+funciones callback:
+
+las funciones callback son funciones que pasan a otras
+como argumento, que luego se invoca dentro de la funcion
+externa para completar un tipo de rutina o accion.
+
+ejemplo:
+
+function saludar(nombre) { // ponemos una funcion con un retorno 
+  return ('Hola ' + nombre);// que dira "Hola" + un nombre
+}
+
+function imprime(nombre,cb){ // hacemos callback
+   return cb(nombre);// poniendo cb(nombre) el cual nos ayudara a invocar la funcion saludar
+}
+
+imprime("nombre",saludar);// y instanciamos, en si el callback funciona cuando nosotros
+// invocamos una funcion a traves de un valor , como se ve estamos invocando a traves
+// del valor nombre a la funcion saludar lo que dara el mensaje de "Hola nombre",
