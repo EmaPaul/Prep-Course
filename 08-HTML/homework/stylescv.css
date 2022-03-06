@@ -1,0 +1,46 @@
+
+#parrafo{
+    font-size: 18px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+body{
+    flex-direction: row-reverse;
+    display: flexbox;
+    margin: 30px;
+    background: url("C:/Users/Emmanuel/Pictures/informa.jpg");
+}
+
+#minombre{
+    border: 5px solid;
+    margin-right: 10px;
+}
+
+.field{
+    margin-top: -7px;
+    margin-left: 156px;
+    margin-right: 10px;
+    border: solid;
+    background-color: lemonchiffon;
+  
+}
+
+.field2{
+    border: solid;
+    margin-right: 10px;
+    background-color: lemonchiffon;
+}
+
+ul{
+    font-size:  18px;
+    margin-top: 1px;
+}
+
+h2{
+    background-color: lemonchiffon;
+    margin-left: 500px;
+    margin-right: 450px;
+    margin-top: 20px ;
+    border:solid
+}
